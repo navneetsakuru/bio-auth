@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Streamlit cache
+.streamlit/
+
+# Model files (optional - remove if you want to upload models)
+*.h5
+*.keras
+
+# Data / biometric storage (important to ignore)
+enroll_images/
+templates/
+
+# Numpy / data files
+*.npy
+*.npz
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
